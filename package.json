@@ -1,0 +1,12 @@
+{
+  "name": "node-intro",
+  "version": "1.0.0",
+  "description": "node - another way to run javascript node package manager (npm) - download and use jQuery and other things from server and keeps them updated",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
