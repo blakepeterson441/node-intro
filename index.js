@@ -1,4 +1,4 @@
-const character = [
+const characters = [
     {
         name: "Spike",
         show: "Cowboy Bebop"
@@ -6,11 +6,12 @@ const character = [
     {
         name: "L",
         show: "Death Note"
-    }
+    },
     {
         name: "Goku",
         show: "Dragonball Z"
-    } {
+    }, 
+    {
         name: "Gon",
         show: "Hunter X Hunter"
     }
@@ -19,8 +20,7 @@ const character = [
 // For loop to go through the array and write to the console 
 // something like "Spike is from Cowboy Bebop".
 
-function namesShow () {
-    for ( let i = 0; i < character.length; i++ ){
-        
-    }
+for (character of characters ){
+    //console.log(`${character.name} is from ${character.show}`)
+    console.log(character.name + ' is from ' + character.show);
 }
